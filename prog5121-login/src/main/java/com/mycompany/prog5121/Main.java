@@ -21,7 +21,8 @@ public class Main {
         String loginUser = JOptionPane.showInputDialog("Login - Enter Username:");
         String loginPass = JOptionPane.showInputDialog("Login - Enter Password:");
         boolean loggedIn = login.loginUser(loginUser, loginPass);
-        JOptionPane.showMessageDialog(null, login.returnLoginStatus(loggedIn));
+        JOptionPane.showMessageDialog(null, (null, login.returnLoginStatus(loggedIn));
+);
 
         if (!loggedIn) {
             return;
