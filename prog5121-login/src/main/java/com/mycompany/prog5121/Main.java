@@ -22,7 +22,7 @@ public class Main {
         String loginPass = JOptionPane.showInputDialog("Login - Enter Password:");
         boolean loggedIn = login.loginUser(loginUser, loginPass);
         JOptionPane.showMessageDialog(null, login.returnLoginStatus(loginUser, loginPass));
-);
+
 
         if (!loggedIn) {
             return;
